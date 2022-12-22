@@ -4,7 +4,8 @@
 This project aims to find the best classification model to detect sleep apnea from ECG signal recordings of different subjects. The best results were obtained with 1D convolutional neural network.
 
 Files Description:
-
+1. ```apnea-ecg-database-1.0.0``` These ECG recordings data set, for more information on it check https://physionet.org/content/apnea-ecg/1.0.0/
+2. ```outputs`` These are the apnea annotations at each moment in time for each recording in a separate file txt.
 1. ```1D_CNN.ipynb``` This notebook implements, trains and evaluates a 1D CNN model to detect apnea from 1 minute signal segments.
 2. ```1D_CNN.ipynb``` This notebook implements, trains and evaluates a 1D CNN model with LSTM to detect apnea from 1 minute signal segments thus leveraging the time dependencies between segments.
 3. ```base_model.ipynb``` In this notebook we are training and evaluating the base model of our project which is a logistic regression on two features related to heart beats, bpm (beats per minute) and sdnn (standard deviation of the NN (R-R) intervals)
