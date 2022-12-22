@@ -17,13 +17,6 @@ Files Description:
 9. ```spect_2D_CNN.ipynb``` This notebook implements, trains and evaluates a 2D CNN to detect apnea from spectrogram images generated from 1 minute signal segments
 10. ```spect_CNN_google_net.ipynb``` This notebook uses google-net for transfer learning to make predictions of apnea on the recurrence plot images generated from 1 minute signal segments
 11. ```utils.py``` Diverse utility functions
-11. ```cross_validation.py``` Cross-validation functions. Cross-validation is used to compute the loss and the accuracy of model prediction on unknown data. Different variants of cross-validation are implemented, including functions to find the best value of a particular parameter for a given training technique. 
-12. ```run.py``` Python script to generate the ```submission.csv``` of the predictions made on the test set, ```test.csv```.
-13. ```notebook.ipynb``` Notebook to keep trace of our research, includes among others different runs of cross_validations, the methods to visualize the train dataset. This is interesting to look if one is interested in the way the data figures on the report are made.
-14. ```data/train.csv``` Train dataset with known classifications. 
-15. ```data/test.csv``` Test dataset with unknown classifications. This file is initially not present, please put it there.
-16. ```data/sample-submission.csv``` Example of a submission file.
-
 
 How to: 
 
